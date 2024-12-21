@@ -1,0 +1,88 @@
+
+
+body{
+  
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 12%);
+    font-size: 14px;
+}
+
+
+.container{
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    width: 300px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.item1{
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+    margin-top: 10px;
+    
+}
+.item2{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.item3{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+.item4 {
+    color: hsl(0, 0%, 80%);
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+
+.item5, .item6, .item7, .item8, .item9{
+    
+   font-size: 14px;
+   font-weight: 500;
+    width: 240px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    background-color:hsl(0, 0%, 30%) ;
+    border-radius: 8px;
+    color: white;
+    border: solid 0px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+
+ 
+}
+
+
+
+.item5:hover, .item6:hover, .item7:hover,
+ .item8:hover, .item9:hover{
+    background-color: hsl(75, 94%, 57%) ;
+}
+.attribution {
+
+    margin-top: 0px;
+    font-size: 14px;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .item1, .item2, .item3, .item4, .item5,.item6,.item7,.item8,.item9 {
+        flex: 1 1 100%;
+    }
+}
